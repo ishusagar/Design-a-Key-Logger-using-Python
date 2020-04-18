@@ -66,6 +66,7 @@ pythoncom.PumpMessages()
 **pyxhook** requires **python-xlib**. Install it if you don’t have it already.<br>
 
 > sudo apt-get install python-xlib <br>
+
 Download [pyxhook](https://github.com/JeffHoogland/pyxhook/blob/master/pyxhook.py) library <br>
 
 ```py
@@ -117,11 +118,12 @@ except Exception as ex:
         f.write('\n{}'.format(msg)) 
 ```
 <br>
-Output:<br>
+Output: <br>
+
 > The keylogger will be started in the background and save all the data on the file.log file “/home/username/Desktop”.<br>
 
 
-Credit : Akash Sharan<br>
+Credit : Akash Sharan <br>
 
 References :
 * https://en.wikipedia.org/wiki/Keystroke_logging
